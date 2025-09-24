@@ -72,17 +72,22 @@ public class seconds {
         } else if (number > 20) {
             System.out.println("sk lielaks pa 20");
         } else if (number > 10) {
-        System.out.println("sk lielaks pa 10");
+            System.out.println("sk lielaks pa 10");
+        }
 
         int Citsskaitlis = 55;
         if (Citsskaitlis != 0) {
-        System.out.println("The number is not equal to 0");
-        if (Citsskaitlis >= 1000) {
-        System.out.println("The number is at least 1000");
+            System.out.println("The number is not equal to 0");
+            if (Citsskaitlis >= 1000) {
+                System.out.println("The number is at least 1000");
+            }
         }
-    }
 
-}
-
+        int sktl = 4;
+        if (sktl > 5) {
+            System.out.println("Skaitlis lielaks pa 5!");
+        } else {
+            System.out.println("Skaitlis ir 5 vai mazāk!");
+        }
     }
 }
